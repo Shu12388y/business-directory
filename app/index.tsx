@@ -10,7 +10,7 @@ export default function Index() {
     navigator.setOptions({
       headerShown: false,
     });
-  }, []);
+  }, [navigator]);
 
   return (
     <Box className="relative">
